@@ -4,7 +4,7 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Vcs.Operations.Popup" is_group="true" action_type="-1" position="18">
+    <group value="TouchBar" is_group="true" action_type="-1" position="17">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -12,7 +12,7 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Vcs.Log.ChangesBrowser.Toolbar" is_group="true" action_type="-1" position="17">
+    <group value="Vcs.Operations.Popup" is_group="true" action_type="-1" position="16">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -20,20 +20,11 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="AtomFileIcons.Actions" is_group="true" action_type="-1" position="16">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="ChangesViewToolbar" is_group="true" action_type="-1" position="16">
+    <group value="Vcs.Log.ChangesBrowser.Toolbar" is_group="true" action_type="-1" position="15">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="StringManipulation.Group.SwitchCase" is_group="true" action_type="-1" position="15">
-      <path value="root" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="space.actions.MainToolbarActionGroup" is_group="true" action_type="-1" position="15">
+    <group value="AtomFileIcons.Actions" is_group="true" action_type="-1" position="15">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
@@ -42,8 +33,13 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="StringManipulation.Group.Main" is_group="true" action_type="-1" position="14">
+    <group value="ChangesViewToolbar" is_group="true" action_type="-1" position="14">
       <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="tasks.toolbar" is_group="true" action_type="-1" position="14">
+      <path value="root" />
+      <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="StringManipulation.Group.Main" is_group="true" action_type="-1" position="14">
@@ -188,12 +184,6 @@
     <group value="OpenFile" is_action="true" action_type="-1" position="0">
       <path value="root" />
       <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group seperator="true" action_type="-1" position="0">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <path value="Tasks Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="MainMenu" is_group="true" action_type="-1" position="0">
