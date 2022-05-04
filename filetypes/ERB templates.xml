@@ -17,6 +17,7 @@
     <keywords4 />
   </highlighting>
   <extensionMap>
+    <mapping pattern="*.yml.erb" />
     <mapping ext="erb" />
   </extensionMap>
 </filetype>
