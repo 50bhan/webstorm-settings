@@ -1,6 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="start-docker-services" type="AUTO_DETECTED" />
+      <mapping pattern="stop-docker-databases" type="AUTO_DETECTED" />
       <mapping pattern="enabled_plugins" type="AUTO_DETECTED" />
       <mapping pattern="script.js" type="PLAIN_TEXT" />
       <mapping pattern=".env.bkp" type="PLAIN_TEXT" />
