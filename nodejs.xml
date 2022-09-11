@@ -1,16 +1,14 @@
 <application>
   <component name="NodeJsLocalInterpreterManager">
-    <local-interpreter path="/usr/local/Cellar/node/18.7.0/bin/node">
-      <version-cache version="18.7.0" last-modified="1659861082670" />
-    </local-interpreter>
-    <local-interpreter path="/usr/local/bin/node">
-      <version-cache version="18.7.0" last-modified="1659861082670" />
-    </local-interpreter>
-    <local-interpreter path="/usr/local/Cellar/node/16.1.0/bin/node">
-      <version-cache last-modified="0" />
-    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node" excluded="true" />
+    <local-interpreter path="/usr/local/Cellar/node/18.7.0/bin/node" excluded="true" />
   </component>
   <component name="NodeJsRemoteInterpreters">
-    <interpreter node-remote-interpreter="docker://docker_fleet-service:latest/node" INTERPRETER_PATH="node" HELPERS_PATH=".webstorm_nodejs_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" VERSION="" OUTDATED_ID="" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker_fleet-service:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
+    <interpreter node-remote-interpreter="docker-compose://[/Users/50bhan/Drive/Dev/fleet/docker/docker-compose.yml]:fleet-service/node" INTERPRETER_PATH="node" HELPERS_PATH=".webstorm_nodejs_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" VERSION="" OUTDATED_ID="" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="fleet-service" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
+      <dockerComposeConfigurationPaths>
+        <item value="$USER_HOME$/Drive/Dev/fleet/docker/docker-compose.yml" />
+      </dockerComposeConfigurationPaths>
+      <envs />
+    </interpreter>
   </component>
 </application>
