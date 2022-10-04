@@ -1,9 +1,8 @@
 <application>
   <component name="NodeJsLocalInterpreterManager">
-    <local-interpreter path="/usr/local/Cellar/node/18.9.0/bin/node">
-      <version-cache version="18.9.0" last-modified="1663912026706" />
+    <local-interpreter path="/usr/local/Cellar/node@16/16.17.0_1/bin/node">
+      <version-cache version="16.17.0" last-modified="1664827224047" />
     </local-interpreter>
-    <local-interpreter path="/usr/local/bin/node" excluded="true" />
   </component>
   <component name="NodeJsRemoteInterpreters">
     <interpreter node-remote-interpreter="docker://fleet_fleet-service:latest/node" INTERPRETER_PATH="node" HELPERS_PATH=".webstorm_nodejs_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" VERSION="" OUTDATED_ID="" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="fleet_fleet-service:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
